@@ -1,2 +1,2 @@
 # credit Risk Prediction End to End Pipeline  
-This project builds an automated, scalable credit risk pipeline using Azure and AWS S3. Data flows from S3 to ADLS via ADF, is transformed in Databricks, stored in Synapse for analytics, and visualized in Power BI. ML models are deployed via Azure ML, with full orchestration managed by Apache Airflow.
+This project implements an automated and scalable credit risk pipeline leveraging Azure and AWS S3. Data is ingested from S3 into Azure Data Lake Storage using Azure Data Factory, then transformed using Azure Databricks. Processed data is stored in Azure Synapse Analytics for reporting and analysis, with visualizations delivered through Power BI. Machine learning models are developed and deployed using Azure Machine Learning.
